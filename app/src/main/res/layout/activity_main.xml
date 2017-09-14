@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="market.bitcoin.com.bitcoinmarketplace.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:text="@string/title_name"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:text="@string/current_details_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <ListView
+            android:layout_marginTop="5dp"
+            android:layout_weight=".5"
+            android:id="@+id/mainListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+        <Button
+            android:id="@+id/refreshButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="@string/refresh_button"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
