@@ -1,8 +1,8 @@
 # Blockchain-Info-Android-Application
-Blockchain Info android application provides latest basic details about bitcoin price minner revenue etc.
+Blockchain Info android application provides latest basic details about bitcoin price miner revenue etc.
 
 ## Getting Started
-This application uploaded for learning purpose. This application works simple and smart it get latest bicoin price minner revenue etc from blockchain official site and show information in seconds to your smart phone.
+This application uploaded for learning purpose. This application works simple and smart it get latest bicoin price miner revenue etc from blockchain official site and show information in seconds to your smart phone.
 
 ## Interface
 ![screen1](https://user-images.githubusercontent.com/30625999/30428992-a5e779e4-990a-11e7-965d-bc7a6c71e65b.PNG)
